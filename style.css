@@ -1,9 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
@@ -59,11 +60,11 @@ a {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   padding: 10px 0;
   background-color: #2d3037;
   -webkit-transition: -webkit-transform 0.2s linear;
@@ -156,12 +157,12 @@ a {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  background-color: #fff;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #2d3037;
 }
 
 .content .head form {
@@ -169,8 +170,8 @@ a {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   padding: 0.2rem 0.6rem;
   background-color: #eaf5ff;
   border-radius: 5px;
@@ -190,8 +191,8 @@ a {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .content .head .links li {
@@ -213,8 +214,8 @@ a {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .content .head .links a.profile img {
@@ -242,8 +243,8 @@ a {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 .discover .list-videos .video {
@@ -280,7 +281,7 @@ a {
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 .discover .list-videos .video .details .time {
@@ -304,8 +305,8 @@ a {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 .analytics .list-analytics .analytic {
@@ -322,7 +323,7 @@ a {
 
 .analytics .list-analytics .analytic:hover {
   -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
-          box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
 }
 
 .analytics .list-analytics .analytic .icon {
@@ -358,7 +359,7 @@ a {
   font-size: 40px;
   margin: 25px 0 5px 0;
   -webkit-transform: scaleY(1.1);
-          transform: scaleY(1.1);
+  transform: scaleY(1.1);
 }
 
 .analytics .list-analytics .analytic .desc {
@@ -380,11 +381,11 @@ a {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .analytics .list-analytics .analytic .percent .value {
@@ -401,11 +402,11 @@ a {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   padding: 2rem 2rem;
   overflow: hidden;
   margin: 2rem 0;
@@ -435,7 +436,7 @@ a {
   border-radius: 50%;
   background-color: #252837;
   -webkit-box-shadow: -10px -50px 0px 15px rgba(255, 255, 255, 0.2);
-          box-shadow: -10px -50px 0px 15px rgba(255, 255, 255, 0.2);
+  box-shadow: -10px -50px 0px 15px rgba(255, 255, 255, 0.2);
 }
 
 .message * {
@@ -490,8 +491,8 @@ a {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 .events-calendar .events {
@@ -503,8 +504,8 @@ a {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 .events-calendar .events .list-events .event {
@@ -521,7 +522,7 @@ a {
 
 .events-calendar .events .list-events .event:hover {
   -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
-          box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
 }
 
 .events-calendar .events .list-events .event .title {
@@ -551,8 +552,8 @@ a {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   color: #4a4b54;
 }
 
@@ -576,8 +577,8 @@ a {
   display: -ms-inline-flexbox;
   display: inline-flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   border: 1px solid #f0f0f0;
   padding: 5px 15px 5px 5px;
   border-radius: 50px;
@@ -621,15 +622,15 @@ a {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
 .events-calendar .calendar .calendar-details {
   background-color: #fff;
   -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
 }
 
 .events-calendar .calendar .calendar-details .date {
@@ -691,8 +692,8 @@ a {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   margin: 2rem 0;
 }
 
@@ -711,11 +712,11 @@ a {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   background-color: #f2f6f9;
   color: #686f7d;
   -webkit-transition: all 0.3s ease-out;
@@ -725,7 +726,7 @@ a {
 .apps-features .list-apps .app:hover {
   background-color: #95d0d5;
   -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
-          box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
 
 .apps-features .list-apps .app:not(:first-child) {
@@ -742,8 +743,8 @@ a {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .apps-features .list-apps .app .type,
@@ -802,23 +803,23 @@ a {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
 .apps-features .features .feature {
   background-color: #f7f7f7;
   -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
   -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
-          box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
   overflow: hidden;
   position: relative;
   color: #46284f;
 }
 
-.apps-features .features .feature > * {
+.apps-features .features .feature>* {
   position: relative;
   z-index: 2;
 }
@@ -828,8 +829,8 @@ a {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
   margin-bottom: 2rem;
 }
 
@@ -859,11 +860,11 @@ a {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .footer .links {
@@ -904,33 +905,40 @@ a {
 
 /*------------------------*/
 @media screen and (max-width: 960px) {
+
   .discover .list-videos,
   .analytics .list-analytics,
   .events-calendar,
   .apps-features {
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
   }
+
   .discover .list-videos .video {
     width: 48%;
   }
+
   .discover .list-videos .video:first-child {
     width: 100%;
     margin-bottom: 15px;
   }
+
   .analytics .list-analytics .analytic {
     width: 48%;
   }
+
   .analytics .list-analytics .analytic:nth-child(1),
   .analytics .list-analytics .analytic:nth-child(2) {
     margin-bottom: 20px;
   }
+
   .events-calendar .events,
   .events-calendar .calendar,
   .apps-features .apps,
   .apps-features .features {
     width: 100%;
   }
+
   .events-calendar .calendar,
   .apps-features .features {
     margin-top: 2rem;
@@ -942,28 +950,32 @@ a {
     padding-left: 5px;
     padding-right: 5px;
   }
+
   .content .head {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
+
   .content .head .links {
     -webkit-box-ordinal-group: 2;
-        -ms-flex-order: 1;
-            order: 1;
+    -ms-flex-order: 1;
+    order: 1;
     -ms-flex-item-align: end;
-        align-self: flex-end;
+    align-self: flex-end;
   }
+
   .content .head form {
     -webkit-box-ordinal-group: 3;
-        -ms-flex-order: 2;
-            order: 2;
+    -ms-flex-order: 2;
+    order: 2;
     -ms-flex-item-align: start;
-        align-self: flex-start;
+    align-self: flex-start;
     width: 100%;
     margin-top: 20px;
   }
+
   .discover .list-videos,
   .analytics .list-analytics,
   .message,
@@ -972,19 +984,23 @@ a {
   .apps-features {
     display: block;
   }
+
   .discover .list-videos .video,
   .analytics .list-analytics .analytic,
   .events-calendar .events .list-events .event {
     width: 100%;
   }
+
   .discover .list-videos .video:not(:last-child),
   .analytics .list-analytics .analytic:not(:last-child),
   .events-calendar .events .list-events .event:not(:last-child) {
     margin-bottom: 15px;
   }
+
   .message {
     text-align: center;
   }
+
   .message .text {
     max-width: 100%;
     margin-bottom: 20px;
@@ -994,17 +1010,21 @@ a {
 @media screen and (max-width: 700px) {
   .main .nav {
     -webkit-transform: translateX(-100%);
-            transform: translateX(-100%);
+    transform: translateX(-100%);
   }
+
   .main .nav:hover {
     -webkit-transform: translateX(0);
-            transform: translateX(0);
+    transform: translateX(0);
   }
+
   .main .nav .burger-menu {
     display: block;
   }
+
   .content {
     padding-left: 0px;
   }
 }
+
 /*# sourceMappingURL=style.css.map */
